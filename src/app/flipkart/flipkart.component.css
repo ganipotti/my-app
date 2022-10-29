@@ -1,0 +1,29 @@
+.container{
+    background-color: cadetblue;
+}
+.row{
+    margin: 20px;
+}
+.card-body{
+    font-size: small;
+    
+}
+.card{
+
+    padding: 10px;
+    margin: 15px;
+    width: 350px;
+    text-align: center;
+    
+   
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+li{
+    color: blue;
+}

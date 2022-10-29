@@ -1,0 +1,16 @@
+<p>power works!</p>
+<h1>power</h1>
+
+<br>
+<label>number</label>
+<input type="number"[(ngModel)]="number">
+<br>
+<label>power of</label>
+<input type="number"[(ngModel)]="number2">
+<br>
+
+
+<button (click)="power()">power</button>
+<button (click)="cube()">cube</button>
+<button (click)="nthpower()">power of</button>
+<h1> Result is:{{result}} </h1>

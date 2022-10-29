@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row">
+    <ng-container *ngFor="let flipkart of flipkarts">
+<div class="card col-md-3">
+    <img class="card-img-top" src="{{flipkart.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-danger">{{flipkart.title}}</h5>
+      <p class="card-text text-success" >{{flipkart.description}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">{{flipkart.category}}</li>
+      <li class="list-group-item">{{flipkart.price}}</li>
+      <li class="list-group-item">{{flipkart.rating.rate}}</li>
+      <li class="list-group-item">{{flipkart.rating.count}}</li>
+    </ul>
+</div>
+    </ng-container>
+</div>
+</div>

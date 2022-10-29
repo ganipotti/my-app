@@ -1,0 +1,14 @@
+
+
+  <div class="card" *ngFor="let typicode of typicodes">
+    
+    <div class="card-body">
+        <p class="card-text text-info">{{ typicode.userId }}</p>
+      <h5 class="card-title text-success">{{ typicode.id }}</h5>
+      <div class="card-header text-danger">
+        "{{ typicode.title }}",
+    </div>
+      <p class="card-text">{{ typicode.body }}</p>
+     
+    </div>
+  </div>
